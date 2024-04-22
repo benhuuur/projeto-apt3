@@ -1,5 +1,35 @@
-.body{
-    height: 850px;
-    width: 302;
-    background-color: #F9F9F9;
+.body {
+    width: 23.5625rem;
+    height: 36.125rem;
+    flex-shrink: 0;
+    background: #F9F9F9;
+}
+
+.stars {
+    width: 11.8125rem;
+    height: 1.8125rem;
+    flex-shrink: 0;
+}
+
+.stars-counting {
+    display: flex;
+    width: 2rem;
+    height: 1.8125rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.assessments{
+    display: flex;
+    flex-direction: row;
+    width: 67%;
+    padding: 10px;
+    justify-content: space-between;
 }
