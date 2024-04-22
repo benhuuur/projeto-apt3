@@ -9,7 +9,9 @@ export const CardProduct = () => {
                 <img src={stars} className={style["stars"]} alt="Stars" />
                 <span className={style["stars-counting"]}>(2)</span>
             </div>
-            <img src={product} alt="product" />
+            <div className={style["center"]}>
+                <img src={product} alt="product" className={style["product-image"]} />
+            </div>
         </div>
     );
 };

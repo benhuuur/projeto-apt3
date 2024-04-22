@@ -26,10 +26,21 @@
     line-height: normal;
 }
 
-.assessments{
+.assessments {
     display: flex;
     flex-direction: row;
     width: 67%;
     padding: 10px;
     justify-content: space-between;
+}
+
+.product-image {
+    width: 22.875rem;
+    height: 24.6875rem;
+    flex-shrink: 0;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
 }
