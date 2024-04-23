@@ -1,0 +1,11 @@
+.logo{
+    width: auto;
+    height: 1.5em;
+}
+
+.serch {
+    width: 50%;
+    height: 3em;
+    background-color: #eaeaea;
+    border-radius: 25px;
+}
