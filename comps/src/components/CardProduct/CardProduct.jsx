@@ -1,10 +1,8 @@
 import style from "./style.module.css";
 import stars from "../../assets/stars.svg";
 
-
 export const CardProduct = (props) => {
     const { productName, productPrice, productPricePromotion, productSizes, productImage, starsCount } = props;
-    const hasPromotion = productPricePromotion !== undefined && productPricePromotion !== null;
 
     return (
         <div className={style.body}>
@@ -24,17 +22,21 @@ export const CardProduct = (props) => {
                 <span className={style["product-name"]}>
                     {productName}
                 </span>
-                <div className={style["product-price"]} style={{ "--has-promotion": hasPromotion ? 1 : 0 }}>
-                    <div className={style["product-price-texts"]} hasPromotion={hasPromotion}>
-                        <span className={style["product-price-text"]}>{productPrice}</span>
-                        {hasPromotion && (
-                            <span className={style["product-price-text-promotion"]}>{productPricePromotion}</span>
-                        )}
-                    </div>
+                <div className={productPricePromotion ? style["product-price-texts-promotion"] : style["product-price-texts"]}>
+                    <span className={productPricePromotion ? style["product-price-text-with-promotion"] : style["product-price-text"]}>{productPrice}</span>
+                    {productPricePromotion && (
+                        <span className={style["product-price-text-promotion"]}>{productPricePromotion}</span>
+                    )}
+                </div>
+                {productPricePromotion ? (
+                    <span>
+                        OU 10X DE {parseFloat(productPricePromotion.replace("R$", "").replace(",", ".")) / 10}
+                    </span>
+                ) : (
                     <span>
                         OU 10X DE {parseFloat(productPrice.replace("R$", "").replace(",", ".")) / 10}
                     </span>
-                </div>
+                )}
             </div>
         </div>
     );

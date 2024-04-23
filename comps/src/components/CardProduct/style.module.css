@@ -71,6 +71,10 @@
     opacity: 1;
 }
 
+.product-size-text:hover {
+    transform: scale(1.2);
+}
+
 .product-size-text {
     color: #000;
     text-align: center;
@@ -113,14 +117,29 @@
 }
 
 
+.product-price-texts-promotion {
+    display: flex;
+    column-gap: 0.6rem;
+}
+
 .product-price-texts {
     display: flex;
     column-gap: 0.6rem;
-    /* justify-content: ${({ hasPromotion }) => hasPromotion ? '' : 'center'}; */
+    justify-content: center
 }
 
 
 .product-price-text {
+    color: #000;
+    font-family: Inter;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /* text-decoration-line: line-through; */
+}
+
+.product-price-text-with-promotion {
     color: #000;
     font-family: Inter;
     font-size: 1.5rem;
