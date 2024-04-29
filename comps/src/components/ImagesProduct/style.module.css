@@ -1,0 +1,17 @@
+.left-products {
+    display: flex;
+    flex-direction: column;
+    width: 10.04113rem;
+    gap: 0.88rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-products-arrow {
+    width: 2.9375rem;
+}
+
+.content {
+    display: flex;
+    gap: 0.96rem;
+}

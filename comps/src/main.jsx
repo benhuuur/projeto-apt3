@@ -9,12 +9,18 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Home from './views/Home/Home.jsx'
+
+import Home from './Pages/Home/Home.jsx'
+import ImagesProduct from './components/ImagesProduct/ImagesProduct.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
+  },
+  {
+    path: "/sla",
+    element: <ImagesProduct />,
   },
 ]);
 
