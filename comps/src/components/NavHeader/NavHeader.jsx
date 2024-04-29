@@ -5,13 +5,10 @@ import user from "../../assets/user.png";
 import cart from "../../assets/cart.png";
 import { Container, Grid } from "@mui/material";
 import { SearchNav } from "./SearchNav";
-import { NavItens } from "./NavItens";
-import { NavPromotion } from "../NavPromotion/NavPromotion";
 
 export const NavHeader = () => {
   return (
     <nav>
-      <NavPromotion />
       <Container maxWidth="lg" sx={{ mt: 2}}>
         <Grid container alignItems="center" justifyContent="space-between" spacing={2}>
           <Grid item xs={3} sm={2}>
@@ -37,7 +34,6 @@ export const NavHeader = () => {
           </Grid>
         </Grid>
       </Container>
-      <NavItens />
     </nav>
   );
 };

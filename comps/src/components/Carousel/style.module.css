@@ -1,13 +1,14 @@
 .carousel {
   overflow: hidden;
   max-width: 100%;
+  margin-top: 20px;
 }
 
 .carouselInner {
   display: flex;
   transition: transform 0.5s ease;
   width: 300vw;
-  height: 28.1875rem;
+  /* height: 28.1875rem; */
 }
 
 .carouselSlide {
