@@ -3,6 +3,7 @@ import { NavHeader } from "../../components/NavHeader/NavHeader";
 import { NavItens } from "../../components/NavHeader/NavItens";
 import Carousel from "../../components/Carousel/Carousel";
 import { CardProduct } from "../../components/CardProduct/CardProduct";
+import Footer from "../../components/Footer/Footer";
 
 import style from "./style.module.css";
 
@@ -96,5 +97,6 @@ export default function Home() {
             </div>
             {/* </div> */}
         </div>
+        <Footer/>
     </>)
 }
