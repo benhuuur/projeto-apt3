@@ -2,7 +2,7 @@ import style from "./style.module.css";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import user from "../../assets/user.png";
-import cart from "../../assets/cart.png";
+import cart from "../../assets/cartblack.png";
 import { Container, Grid } from "@mui/material";
 import { SearchNav } from "./SearchNav";
 
