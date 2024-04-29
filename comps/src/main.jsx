@@ -9,9 +9,8 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-
-import Home from './Pages/Home/Home.jsx'
-import ImagesProduct from './components/ImagesProduct/ImagesProduct.jsx'
+import Home from './views/Home/Home.jsx'
+import { ProductPage } from './Pages/ProductPage/ProductPage.jsx'
 
 const router = createBrowserRouter([
   {
@@ -19,9 +18,9 @@ const router = createBrowserRouter([
     element: <Home />,
   },
   {
-    path: "/sla",
-    element: <ImagesProduct />,
-  },
+    path: "/products",
+    element: <ProductPage />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
