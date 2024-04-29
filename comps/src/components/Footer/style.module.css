@@ -5,17 +5,18 @@
 }
 
 .content {
-    margin-left: 3.06rem;
+    margin-top: 10px;
+    margin-left: 1.06rem;
     color: #808080;
     font-family: Inter;
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-.container{
-    height: 4.75rem;
+.container {
+    height: 3.75rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
