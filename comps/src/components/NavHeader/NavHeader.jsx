@@ -9,6 +9,7 @@ import { SearchNav } from "./SearchNav";
 export const NavHeader = () => {
   return (
     <nav>
+      {/* <NavPromotion /> */}
       <Container maxWidth="lg" sx={{ mt: 2}}>
         <Grid container alignItems="center" justifyContent="space-between" spacing={2}>
           <Grid item xs={3} sm={2}>
@@ -34,6 +35,7 @@ export const NavHeader = () => {
           </Grid>
         </Grid>
       </Container>
+      {/* <NavItens /> */}
     </nav>
   );
 };
