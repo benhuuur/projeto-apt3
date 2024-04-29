@@ -1,0 +1,11 @@
+.link {
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.50)
+}
+
+.engloba {
+    display: flex;
+    color: rgba(128, 128, 128, 0.50);
+    width: 18em;
+    justify-content: space-between;
+}

@@ -1,0 +1,84 @@
+.promotion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 122px;
+  height: 27px;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.textpromotion {
+  font-size: 13px;
+}
+
+.title {
+  font-size: 1.75rem;
+}
+
+.stars {
+  width: 11.8125rem;
+  height: 1.8125rem;
+  flex-shrink: 0;
+}
+
+.starsCount {
+  margin-left: 0.5rem;
+  color: #000;
+  font-family: Inter;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.price {
+  color: #000;
+  font-family: Inter;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.color {
+  color: #000;
+  font-family: Inter;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.squareColor {
+  width: 2.3125rem;
+  height: 2.3125rem;
+  flex-shrink: 0;
+  margin-top: 0.5em;
+  background: #3e5846;
+}
+
+.size {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.3125rem;
+  height: 2.3125rem;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: #fff;
+}
+
+.qtd {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 4.875rem;
+  height: 2.6875rem;
+  flex-shrink: 0;
+  border: 1px solid #000;
+  background: #fff;
+}

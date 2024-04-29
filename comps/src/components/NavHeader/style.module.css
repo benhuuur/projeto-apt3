@@ -81,7 +81,7 @@
 @media screen and (max-width: 600px) {
   .logo {
     width: auto;
-    height: 0.75em;
+    height: 0.8em;
   }
 
   .serch {
@@ -123,4 +123,11 @@
     width: 1.2rem;
   }
 
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    width: auto;
+    height: 0.8em;
+  }
 }
