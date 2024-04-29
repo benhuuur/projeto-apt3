@@ -5,8 +5,6 @@ import user from "../../assets/user.png";
 import cart from "../../assets/cart.png";
 import { Container, Grid } from "@mui/material";
 import { SearchNav } from "./SearchNav";
-import { NavItens } from "./NavItens";
-import { NavPromotion } from "../NavPromotion/NavPromotion";
 
 export const NavHeader = () => {
   return (
