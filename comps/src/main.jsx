@@ -10,12 +10,17 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './views/Home/Home.jsx'
+import { ProductPage } from './Pages/ProductPage/ProductPage.jsx'
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home />,
   },
+  {
+    path: "/products",
+    element: <ProductPage />
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

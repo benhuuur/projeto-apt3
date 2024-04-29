@@ -14,9 +14,7 @@ function App() {
     advertisement3,
   ];
   return (
-    <>
-      <ProductPage/>
-    </>
+    <ProductPage/>
   );
 }
 
