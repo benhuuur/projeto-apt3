@@ -1,17 +1,36 @@
 .left-products {
-    display: flex;
-    flex-direction: column;
-    width: 10.04113rem;
-    gap: 0.88rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 10.04113rem;
+  gap: 0.88rem;
+  justify-content: center;
+  align-items: center;
 }
 
 .left-products-arrow {
-    width: 2.9375rem;
+  width: 2.9375rem;
 }
 
 .content {
-    display: flex;
-    gap: 0.96rem;
+  display: flex;
+  gap: 0.96rem;
+}
+
+.main-product {
+    width: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .main-product {
+        width: 15em;
+    }
+    .left-imagens {
+        width: 5em;
+    }
+    .left-products-arrow {
+        width: 1.5em;
+      }
+    .left-products {
+      width: 5em;
+    }
 }

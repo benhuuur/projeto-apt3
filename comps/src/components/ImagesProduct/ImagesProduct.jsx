@@ -13,12 +13,12 @@ export default function ImagesProduct() {
             <div className={style["content"]}>
                 <div className={style["left-products"]}>
                     <img className={style["left-products-arrow"]} src={SlideUp} />
-                    <img src={product1} />
-                    <img src={product2} />
-                    <img src={product3} />
+                    <img className={style["left-imagens"]} src={product1} />
+                    <img className={style["left-imagens"]} src={product2} />
+                    <img className={style["left-imagens"]} src={product3} />
                     <img className={style["left-products-arrow"]} src={SlideDown} />
                 </div>
-                <img src={product4} />
+                <img className={style["main-product"]} src={product4} />
             </div>
         </>
     )

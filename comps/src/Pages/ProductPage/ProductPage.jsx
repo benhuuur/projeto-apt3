@@ -15,16 +15,26 @@ const array = [
 export const ProductPage = () => {
   return (
     <>
-      <NavPromotion/>
-      <NavHeader/>
+      <NavPromotion />
+      <NavHeader />
       <Container>
-      <Navigation navs={array} margin={"3em"} />
-        <Grid style={{display: "flex", alignItems: "baseline", justifyContent: "space-between", marginTop: '1.5em'}}>
-          <Grid item xs={7} sm={7}>
-            <ImagesProduct/>
+        <Navigation navs={array} margin={"3em"} />
+        <Grid
+          container
+          spacing={2}
+          alignItems="baseline"
+          justifyContent="center"
+          style={{ marginTop: "1.5em" }}
+        >
+          <Grid item xs={12} sm={12} md={12} lg={7} style={{display: "flex", justifyContent: "center"}}>
+            <div>
+              <ImagesProduct />
+            </div>
           </Grid>
-          <Grid item xs={5} sm={5}>
-            <InfoProduct />   
+          <Grid item xs={12} sm={12} md={12} lg={5} style={{display: "flex", justifyContent: "space-around"}}>
+            <div style={{display: "flex", flexDirection: "column"}}>
+              <InfoProduct/>
+            </div>
           </Grid>
         </Grid>
       </Container>
